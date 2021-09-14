@@ -1,33 +1,84 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E Mastragostino</title>
 
-  <title>Mastragostino.net</title>
-  <meta name="description" content="">
-  <meta name="author" content="E Mastragostino">
+    <link href="/img/favicon-simplybuilt.ico" rel="icon">
 
-  <!-- <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png"> -->
-
-  <!-- <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
-
-  <link rel="stylesheet" href="styles.css">
-
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
-<body>
-  <h1>Test title</h1>
-  <p>Grazie, ti invieremo le info il prima possibile</p>
+<body data-spy="scroll" data-offset="80">
 
-  <a href="ho-gia.html">ho gia</a>
-  <a href="no-grazie.html">no grazie</a>
+    <section id="home" data-stellar-background-ratio="0.5">
+        <div class="parallax-overlay"></div>
+        <div class="home-content text-center">
+            <div class="container">
+                <span class="home-top-slide-text hidden-xs">Emiliano Mastragostino</span>
+                <div class="main-flex-slider">
+                    <h1>Javascript <span class="colored-text">Developer</span></h1>
+                </div>
+                <div class="home-link-btn text-center scrollto">
+                    <a href="#portfolio" class="btn btn-lg btn-dark-2">Portfolio</a>
+                    <a href="https://github.com/emastra" class="btn btn-lg btn-dark-2" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/emiliano-mastragostino/" target="_blank"
+                        class="btn btn-lg btn-dark-2">Linkedin</a>
+                </div>
+            </div>
+            <div class="scrollto">
+                <a href="#portfolio">
+                    <div class="scroll-down-yeah"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--home section end-->
+
+    <section id="navigation">
+        <div class="navbar navbar-inverse navbar-static-top " role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Emiliano Mastragostino</a>
+                </div>
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right scrollto">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#team">About me</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/.container -->
+        </div>
+        <!--navbar-default-->
+    </section>
+    <!--navigation section end here-->
+
+
+
+    <footer id="footer" class="text-center">
+        Developed by <a href="http://mastragostino.herokuapp.com/" target="_blank">Emiliano Mastragostino</a>
+    </footer>
+    <!--footer-->
 </body>
+
 </html>
